@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff0f5;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #f8b7cd;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #6a1b4d;
+  }
+  
+  .beranda, .varian, .login-box {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Form login */
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #f8b7cd;
+    border-radius: 5px;
+  }
+  
+  .login-box button {
+    background-color: #f48fb1;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-box button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-box button:hover {
+    background-color: #ec407a;
+  }
+  
+  /* Tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #f8b7cd;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #f48fb1;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff5f8;
+  }
